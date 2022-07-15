@@ -20,16 +20,14 @@ README.md를 생성해 버전 관리하며  Git 사용 → 특정 버전으로 �
 - git log - 로그 보여줌
 - git diff A B - A에 비해 B가 어떻게 변했는지 두 커밋 사이 변경 사항을 알려줌 (commit 번호 앞자리 4개만 써도 가능함)
 
-## GitHub
-
 Local Repository (PC) ↔ Remote Repository (GitHub)
 
-### remote
+## remote
 
 1. git remote add origin {remote_repo} - origin : <repo_name> 별명 (관례적), {remote_repo} : github의 repo 주소
 2. git push -u origin master - git push A B : A로 B브랜치를 push, -u : 사용 이후에는 git push만 써도 사용 가능
 
-### clone
+## clone
 
 repo 생성시 README를 추가할때 defalut branch 이름을 바꿀수있다 (main → master)
 
